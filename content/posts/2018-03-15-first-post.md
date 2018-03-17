@@ -1,6 +1,7 @@
 ---
 title: "Reboot the Blog!"
 date: 2018-03-15T11:29:19-07:00
+categories: [ "blog" ]
 draft: false
 ---
 
