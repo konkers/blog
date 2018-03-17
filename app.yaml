@@ -6,6 +6,10 @@ handlers:
 - url: /
   static_files: public/index.html
   upload: public/index.html
+# index files
+- url: /(.+)/
+  static_files: public/\1/index.html
+  upload: public/(.+)/index.html
 
 - url: /(.*)
   static_files: public/\1
