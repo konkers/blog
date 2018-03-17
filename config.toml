@@ -1,5 +1,12 @@
-baseURL = "http://konkers.net/"
+baseURL = "/"
 languageCode = "en-us"
 title = "konkers"
 
 theme = "base16"
+
+mainSections = ["posts"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series" 
